@@ -1,4 +1,4 @@
-# RecoC# 9 introduces records, a new reference type that you can create instead of classes or structs. Records are distinct from classes in that record types use value-based equality. 
+C# 9 introduces records, a new reference type that you can create instead of classes or structs. Records are distinct from classes in that record types use value-based equality. 
 
 Internally record gets converted to class with Inequitable<T> and it use a method called decode to convert the value back to the expected values. 
 
