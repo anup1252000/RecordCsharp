@@ -3,7 +3,8 @@ C# 9 introduces records, a new reference type that you can create instead of cla
 Internally record gets converted to class with Inequitable<T> and it use a method called decode to convert the value back to the expected values. 
 
 In my above code, I have created a record with the name as Employee. 
-public record Employee
+    
+   public record Employee
     {
         public int Id { get; set; }
 
